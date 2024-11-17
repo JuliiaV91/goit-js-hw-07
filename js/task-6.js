@@ -40,7 +40,7 @@ createButton.addEventListener('click', () => {
         alert('Будь ласка, введіть число від 1 до 100'); 
       }
 
-      input.value = '';
+      inputEl.value = '';
     });
 
 destroyButton.addEventListener('click', destroyBoxes);
